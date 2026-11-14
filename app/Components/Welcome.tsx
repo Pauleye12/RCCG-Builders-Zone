@@ -7,7 +7,7 @@ const Welcome: React.FC = () => {
       <div className="overflow-hidden rounded-b-[48px] bg-white">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 pl-6 md:grid-cols-2 md:gap-0 md:pl-[100px]">
           {/* Left column */}
-          <div className="flex flex-col justify-between py-10 md:min-h-[550px] md:py-0 md:pr-10 mb-7">
+          <div className="flex flex-col justify-between py-10 md:min-h-[551px] md:py-0 md:pr-10 mb-7">
             <h1 className="text-6xl font-medium leading-[0.95] tracking-tight text-black md:text-[88px]">
               WELCOME
               <br />
