@@ -9,7 +9,7 @@ const Welcome: React.FC = () => {
           {/* Left column */}
           <div className="flex flex-col justify-between py-10 md:min-h-[550px] md:py-0 md:pr-10 mb-7">
             <h1 className="text-6xl font-medium leading-[0.95] tracking-tight text-black md:text-[88px]">
-              Welcome
+              WELCOME
               <br />
               Home
             </h1>
