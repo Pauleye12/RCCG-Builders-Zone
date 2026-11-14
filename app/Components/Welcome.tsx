@@ -2,7 +2,7 @@ import React from "react";
 
 const Welcome: React.FC = () => {
   return (
-    <section className="bg-[#ece5db] pb-2 pt-">
+    <section className="bg-[#ece5db] pb-2 pt-2">
       {/* White rounded card */}
       <div className="overflow-hidden rounded-b-[48px] bg-white">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 pl-6 md:grid-cols-2 md:gap-0 md:pl-[100px]">
