@@ -5,6 +5,7 @@ import Welcome from "~/Components/Welcome";
 import AboutUs from "~/Components/AboutUs";
 import LearnMore from "~/Components/LearnMore";
 import LeadPastor from "~/Components/LeadPastor";
+import Community from "~/Community";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -22,6 +23,7 @@ export default function Home() {
       <AboutUs />
       <LearnMore />
       <LeadPastor />
+      <Community />
     </div>
   );
 }
