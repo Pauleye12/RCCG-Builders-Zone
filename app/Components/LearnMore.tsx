@@ -77,7 +77,7 @@ const LearnMore: React.FC = () => {
   };
 
   return (
-    <section>
+    <section className="w-full">
       <div className="relative h-screen w-full overflow-hidden">
         {/* Background Image */}
         <img
@@ -89,7 +89,7 @@ const LearnMore: React.FC = () => {
         <div className="absolute inset-0 bg-black/70" />
 
         {/* Slide Content */}
-        <div className="absolute bottom-8 left-0 z-10 w-full max-w-165 px-4 md:bottom-10 md:left-[6%] md:px-0">
+        <div className="absolute bottom-8 left-0 z-10 w-full max-w-165 px-6 md:bottom-10 md:px-6">
           <h1 className="mb-5 text-4xl font-extrabold uppercase leading-[1.05] tracking-tight text-white md:text-6xl">
             {slide.title}
           </h1>
