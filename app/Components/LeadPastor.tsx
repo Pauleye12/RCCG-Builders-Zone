@@ -11,7 +11,7 @@ const LeadPastor: React.FC = () => {
             <img
               src="/hero1.jpg"
               alt="Lead Pastor"
-              className="mx-auto h-75 w-75 rounded-full object-cover  sm:h-100 sm:w-100 lg:h-125 lg:w-125"
+              className="mx-auto h-75 w-75 rounded-full object-cover  sm:h-100 sm:w-100 lg:h-125 lg:w-125 transition-transform duration-500 hover:scale-105"
             />
           </div>
         </div>
@@ -34,7 +34,7 @@ const LeadPastor: React.FC = () => {
           </h2>
 
           {/* Description */}
-          <p className="mb-9 max-w-117.5 text-base leading-[1.8] font-medium text-gray-400 sm:text-xl">
+          <p className="mb-9 max-w-117.5 text-sm leading-[1.8] text-white md:text-lg lg:text-lg">
             Apostle Emmanuel Iren is the visionary founder and lead pastor of
             Celebration Church International, a dynamic teaching ministry
             dedicated to spreading the gospel and helping people discover their
