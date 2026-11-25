@@ -124,8 +124,8 @@ const Hero: React.FC = () => {
             />
 
             {/* Gradient Overlays: Top, Bottom, Vignette, and Color Accent */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-black/60" />
-            <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-transparent to-black/60" />
+            <div className="absolute inset-0 bg-linear-to-t from-black via-black/40 to-black/60" />
+            <div className="absolute inset-0 bg-linear-to-r from-black/60 via-transparent to-black/60" />
             <div className="absolute inset-0 bg-blue-950/20 mix-blend-multiply" />
 
             {/* Slide Content Box */}

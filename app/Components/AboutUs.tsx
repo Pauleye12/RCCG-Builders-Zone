@@ -6,7 +6,7 @@ const AboutUs = () => {
       <div className="flex w-full flex-col items-center justify-between gap-12 md:flex-row md:gap-8 lg:gap-24">
         {/* Left column: circular image */}
         <div className="relative flex w-full min-w-0 items-center justify-center md:w-1/2 md:justify-start">
-          <div className="relative flex aspect-square w-full max-w-[320px] items-center justify-center sm:max-w-[420px] md:max-w-[460px]">
+          <div className="relative flex aspect-square w-full max-w-[320px] items-center justify-center sm:max-w-105 md:max-w-115">
             {/* Decorative ring and swoosh */}
             <svg
               viewBox="0 0 500 500"
@@ -32,7 +32,7 @@ const AboutUs = () => {
               <img
                 src="/hero2.jpg"
                 alt="Pastor speaking at The Elevation Church"
-                className="h-full w-full object-cover object-center"
+                className="h-full w-full object-cover object-center transition-transform duration-500 hover:scale-105"
               />
             </div>
           </div>
@@ -50,7 +50,7 @@ const AboutUs = () => {
             Welcome To
             <br />
             The Elevation Church,{" "}
-            <span className="bg-gradient-to-r from-[#0066A1] via-[#348F6C] to-[#98C93C] bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-[#0066A1] via-[#348F6C] to-[#98C93C] bg-clip-text text-transparent">
               TEC
             </span>
           </h2>
@@ -70,7 +70,7 @@ const AboutUs = () => {
             type="button"
             className="group inline-flex items-center gap-3 rounded-lg border border-[#333333] px-6 py-3 text-sm font-medium text-[#1A1A1A] transition-all duration-200 hover:bg-[#1A1A1A] hover:text-white"
           >
-            <span className="text-[14px]">Learn More</span>
+            <span className="text-[14px] cursor-pointer">Learn More</span>
             <svg
               className="h-2.5 w-2.5 fill-current transition-transform duration-200 group-hover:translate-x-1"
               viewBox="0 0 6 10"

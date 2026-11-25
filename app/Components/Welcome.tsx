@@ -13,7 +13,7 @@ const Welcome: React.FC = () => {
               Home
             </h1>
 
-            <p className="mt-6 max-w-75 pt-2 pl-[2px] text-base leading-[2] text-neutral-900 sm:text-lg md:mb-6 md:mt-0">
+            <p className="mt-6 max-w-75 pt-2 pl-0.5 text-base leading-loose text-neutral-900 sm:text-lg md:mb-6 md:mt-0">
               SOUL Church is a vibrant and friendly church in the beautiful city
               of Norwich. We love Jesus and we love people. We&apos;d love to
               see you here soon!
@@ -25,7 +25,7 @@ const Welcome: React.FC = () => {
             <img
               src="/hero3.jpg"
               alt="SOUL Church"
-              className="h-70 w-full rounded-tl-[120px] rounded-br-[40px] object-cover sm:h-87.5 sm:rounded-tl-[150px] md:h-full md:max-h-105 md:rounded-tl-[170px] md:rounded-br-[48px] lg:max-h-125 lg:rounded-tl-[220px] lg:rounded-br-[56px]"
+              className="h-70 w-full rounded-tl-[120px] rounded-br-[40px] object-cover sm:h-87.5 sm:rounded-tl-[150px] md:h-full md:max-h-105 md:rounded-tl-[170px] md:rounded-br-[48px] lg:max-h-125 lg:rounded-tl-[220px] lg:rounded-br-[56px] transition-transform duration-500 hover:scale-105"
             />
           </div>
         </div>

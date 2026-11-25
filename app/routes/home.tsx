@@ -6,6 +6,7 @@ import AboutUs from "~/Components/AboutUs";
 import LearnMore from "~/Components/LearnMore";
 import LeadPastor from "~/Components/LeadPastor";
 import Community from "~/Components/Community";
+import CatchUp from "~/Components/CatchUp";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -24,6 +25,7 @@ export default function Home() {
       <LearnMore />
       <LeadPastor />
       <Community />
+      <CatchUp />
     </div>
   );
 }

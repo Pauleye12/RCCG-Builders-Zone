@@ -23,7 +23,7 @@ const communityItems = [
 
 const Community: React.FC = () => {
   return (
-    <section className="w-full bg-white px-6 py-16 sm:px-8 lg:px-9">
+    <section className="w-full bg-white px-6 py-16 sm:px-7 lg:px-9">
       {/* Heading */}
       <div className="mx-auto mb-14 max-w-3xl text-center">
         {/* Badge */}

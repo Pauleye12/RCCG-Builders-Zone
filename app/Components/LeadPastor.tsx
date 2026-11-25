@@ -46,7 +46,7 @@ const LeadPastor: React.FC = () => {
           </p>
 
           {/* Read More Button */}
-          <button className="rounded-full border border-white px-7 py-3 text-sm font-bold uppercase transition duration-300 hover:bg-white hover:text-black">
+          <button className="rounded-full border border-white px-7 py-3 text-sm font-bold uppercase transition duration-300 hover:bg-white hover:text-black cursor-pointer">
             Read More
           </button>
         </div>

@@ -98,7 +98,7 @@ const LearnMore: React.FC = () => {
             {slide.description}
           </p>
 
-          <button className="inline-flex items-center gap-3 rounded-full bg-[#f43f46] px-7 py-3 text-sm font-bold uppercase text-white transition hover:bg-red-600">
+          <button className="inline-flex items-center gap-3 rounded-full bg-[#f43f46] px-6 py-3 text-sm font-bold uppercase text-white  hover:bg-red-600 transition-all duration-300  hover:scale-105 active:scale-95 shadow-lg shadow-black/40 cursor-pointer">
             {slide.primaryBtn}
             <span>→</span>
           </button>
@@ -108,7 +108,7 @@ const LearnMore: React.FC = () => {
         <div className="absolute inset-x-6 top-1/2 z-20 flex -translate-y-1/2 justify-between">
           <button
             onClick={prevSlide}
-            className="rounded-full bg-purple-200 px-4 py-2"
+            className="rounded-full bg-purple-200 px-4 py-2 cursor-pointer"
             aria-label="Previous slide"
           >
             ←
@@ -116,7 +116,7 @@ const LearnMore: React.FC = () => {
 
           <button
             onClick={nextSlide}
-            className="rounded-full bg-purple-200 px-4 py-2"
+            className="rounded-full bg-purple-200 px-4 py-2 cursor-pointer"
             aria-label="Next slide"
           >
             →
