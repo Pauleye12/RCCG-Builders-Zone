@@ -2,40 +2,15 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="w-full bg-white px-6 py-16 font-sans md:px-7">
-      <div className="flex w-full flex-col items-center justify-between gap-12 md:flex-row md:gap-8 lg:gap-24">
+    <section className="w-full bg-white px-6 py-16 font-sans md:px-20 md:py-20 flex justify-center items-center border-t border-gray-100 ">
+      <div className="flex w-full max-w-300 flex-col items-center justify-between gap-12 md:flex-row md:gap-8 lg:gap-24">
         {/* Left column: circular image */}
         <div className="relative flex w-full min-w-0 items-center justify-center md:w-1/2 md:justify-start">
-          <div className="relative flex aspect-square w-full max-w-[320px] items-center justify-center sm:max-w-105 md:max-w-115">
-            {/* Decorative ring and swoosh */}
-            <svg
-              viewBox="0 0 500 500"
-              className="pointer-events-none absolute inset-0 h-full w-full"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle
-                cx="250"
-                cy="264"
-                r="210"
-                stroke="#EDF2F6"
-                strokeWidth="55"
-              />
-              <path
-                d="M115 45 C 45 120, 35 230, 75 320 C 55 220, 75 125, 130 60 Z"
-                fill="#EDF2F6"
-              />
-            </svg>
-
-            {/* Circular photo */}
-            <div className="relative z-10 h-[86%] w-[86%] translate-y-3 overflow-hidden rounded-full shadow-sm">
-              <img
-                src="/hero2.jpg"
-                alt="Pastor speaking at The Elevation Church"
-                className="h-full w-full object-cover object-center transition-transform duration-500 hover:scale-105"
-              />
-            </div>
-          </div>
+          <img
+            src="/familyImg.jpeg"
+            alt="Pastor speaking at The Elevation Church"
+            className="h-full w-full object-cover object-center transition-transform duration-500 max-w-125 "
+          />
         </div>
 
         {/* Right column: content */}
@@ -47,11 +22,10 @@ const AboutUs = () => {
           </div>
 
           <h2 className="mb-6 text-3xl font-bold leading-[1.2] tracking-tight text-[#1A1A1A] sm:text-4xl md:text-3xl lg:text-[42px]">
-            Welcome To
-            <br />
-            The Elevation Church,{" "}
+            RCCG
+            <br />{" "}
             <span className="bg-linear-to-r from-[#0066A1] via-[#348F6C] to-[#98C93C] bg-clip-text text-transparent">
-              TEC
+              Builder's Zone
             </span>
           </h2>
 

@@ -53,7 +53,7 @@ const SecondSlides: LearnMoreProps[] = [
   },
 ];
 
-const LearnMore: React.FC = () => {
+const CSR: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
@@ -78,7 +78,7 @@ const LearnMore: React.FC = () => {
 
   return (
     <section className="w-full">
-      <div className="relative h-screen w-full overflow-hidden">
+      <div className="relative h-screen w-screen ">
         {/* Background Image */}
         <img
           src={slide.image}
@@ -89,7 +89,7 @@ const LearnMore: React.FC = () => {
         <div className="absolute inset-0 bg-black/70" />
 
         {/* Slide Content */}
-        <div className="absolute bottom-8 left-0 z-10 w-full max-w-165 px-6 md:bottom-10 md:px-6">
+        <div className="absolute bottom-8 md:left-30 z-10 w-full max-w-165 px-6 md:bottom-10 ">
           <h1 className="mb-5 text-4xl font-extrabold uppercase leading-[1.05] tracking-tight text-white md:text-6xl">
             {slide.title}
           </h1>
@@ -105,10 +105,10 @@ const LearnMore: React.FC = () => {
         </div>
 
         {/* Navigation */}
-        <div className="absolute inset-x-6 top-1/2 z-20 flex -translate-y-1/2 justify-between">
+        <div className="absolute inset-x-6 top-1/2 z-20 flex -translate-y-1/2 justify-between ">
           <button
             onClick={prevSlide}
-            className="rounded-full bg-purple-200 px-4 py-2 cursor-pointer"
+            className="rounded-full bg-[#FF5A5F] w-12 h-12 cursor-pointer flex justify-center items-center "
             aria-label="Previous slide"
           >
             ←
@@ -116,7 +116,7 @@ const LearnMore: React.FC = () => {
 
           <button
             onClick={nextSlide}
-            className="rounded-full bg-purple-200 px-4 py-2 cursor-pointer"
+            className="rounded-full bg-[#FF5A5F] w-12 h-12 cursor-pointer justify-center items-center "
             aria-label="Next slide"
           >
             →
@@ -127,4 +127,4 @@ const LearnMore: React.FC = () => {
   );
 };
 
-export default LearnMore;
+export default CSR;

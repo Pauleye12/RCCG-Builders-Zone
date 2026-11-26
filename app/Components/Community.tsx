@@ -2,14 +2,13 @@ import React from "react";
 
 const communityItems = [
   {
-    image: "/hero1.jpg",
-    title: "Membership Classes",
-    description:
-      "Our Membership Classes get you up to speed with accurate scripture-based teachings designed to create a strong bedrock for your spiritual growth.",
+    image: "/men.jpg",
+    title: "Men's Fellowship",
+    description: "Our community of men is open to welcome you to the family",
   },
   {
-    image: "/hero2.jpg",
-    title: "Celebrations",
+    image: "/women.jpg",
+    title: "Women's Fellowship",
     description:
       "You are the answer to our prayers, so we celebrate you every day, especially on your special days. You mean that much to us.",
   },
@@ -23,21 +22,23 @@ const communityItems = [
 
 const Community: React.FC = () => {
   return (
-    <section className="w-full bg-white px-6 py-16 sm:px-7 lg:px-9">
+    <section className="w-full bg-white px-6 py-20 sm:px-7 lg:px-9">
       {/* Heading */}
       <div className="mx-auto mb-14 max-w-3xl text-center">
         {/* Badge */}
         <div className="mx-auto mb-5 flex w-fit items-center gap-2 rounded-full bg-gray-100 px-4 py-2">
           <span className="text-sm">🌍</span>
           <span className="text-xs font-bold tracking-[2px] text-gray-800">
-            COMMUNITY
+            DEPARTMENTS
           </span>
         </div>
 
         <h1 className="text-2xl font-black leading-[1.05] tracking-tight text-black sm:text-4xl lg:text-6xl">
-          We do community differently
+          {/* We do community differently
           <br />
-          at <span className="text-[#ed4655]">Celebration Church</span>
+          at <span className="text-[#ed4655]">Celebration Church</span> */}
+          We have a department for{" "}
+          <span className="text-[#ed4655]">Everyone</span>
         </h1>
 
         <p className="mt-6 text-[12px] text-gray-500 md:text-base lg:text-xl">
