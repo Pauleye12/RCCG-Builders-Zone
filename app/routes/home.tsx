@@ -7,7 +7,8 @@ import LearnMore from "~/Components/CSR";
 import LeadPastor from "~/Components/LeadPastor";
 import Community from "~/Components/Community";
 import CatchUp from "~/Components/CatchUp";
-import CatchUp2 from "~/Components/CatchUp2";
+import Articles from "~/Components/Articles";
+import Story from "~/Components/Story";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -26,7 +27,9 @@ export default function Home() {
       <LearnMore />
       <LeadPastor />
       <Community />
-      <CatchUp2 />
+      <CatchUp />
+      <Articles />
+      <Story />
     </div>
   );
 }

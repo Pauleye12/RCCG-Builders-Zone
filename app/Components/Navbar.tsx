@@ -38,11 +38,14 @@ const Navbar: React.FC = () => {
         className={`fixed z-50 transition-all duration-300 ease-out flex items-center justify-between ${
           isScrolled
             ? "top-4 sm:top-5 left-1/2 -translate-x-1/2 w-[94%] max-w-5xl px-5 sm:px-8 py-2.5 sm:py-3 rounded-full bg-black/75 backdrop-blur-xl border border-white/15 shadow-2xl shadow-black/60"
-            : "top-0 left-0 right-0 w-full px-6 sm:px-12 py-5 sm:py-6 bg-gradient-to-b from-black/80 via-black/30 to-transparent border-transparent"
+            : "top-0 left-0 right-0 w-full px-6 sm:px-12 py-5 sm:py-6 bg-linear-to-b from-black/80 via-black/30 to-transparent border-transparent"
         }`}
       >
         {/* Left: Brand / Logo */}
-        <a href="#" className="flex items-center gap-2.5 sm:gap-3 group shrink-0 z-10">
+        <a
+          href="#"
+          className="flex items-center gap-2.5 sm:gap-3 group shrink-0 z-10"
+        >
           <img
             src="/logo.png"
             alt="RCCG Builders"
