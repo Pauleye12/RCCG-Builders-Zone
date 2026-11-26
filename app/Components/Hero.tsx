@@ -98,7 +98,7 @@ const Hero: React.FC = () => {
 
   return (
     <section
-      className="relative w-full h-screen min-h-[640px] max-h-[1080px] bg-black text-white overflow-hidden select-none"
+      className="relative w-full h-screen min-h-160 max-h-270 bg-black text-white overflow-hidden select-none"
       onMouseEnter={() => setIsAutoPlaying(false)}
       onMouseLeave={() => setIsAutoPlaying(true)}
       onTouchStart={handleTouchStart}
@@ -124,8 +124,8 @@ const Hero: React.FC = () => {
             />
 
             {/* Gradient Overlays: Top, Bottom, Vignette, and Color Accent */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-black/60" />
-            <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-transparent to-black/60" />
+            <div className="absolute inset-0 bg-linear-to-t from-black via-black/40 to-black/60" />
+            <div className="absolute inset-0 bg-linear-to-r from-black/60 via-transparent to-black/60" />
             <div className="absolute inset-0 bg-blue-950/20 mix-blend-multiply" />
 
             {/* Slide Content Box */}
@@ -167,4 +167,3 @@ const Hero: React.FC = () => {
 };
 
 export default Hero;
-

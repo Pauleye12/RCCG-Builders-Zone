@@ -3,7 +3,11 @@ import Hero from "~/Components/Hero";
 import type { Route } from "./+types/home";
 import Welcome from "~/Components/Welcome";
 import AboutUs from "~/Components/AboutUs";
-import LearnMore from "~/Components/LearnMore";
+import LearnMore from "~/Components/CSR";
+import LeadPastor from "~/Components/LeadPastor";
+import Community from "~/Components/Community";
+import CatchUp from "~/Components/CatchUp";
+import CatchUp2 from "~/Components/CatchUp2";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -20,6 +24,9 @@ export default function Home() {
       <Welcome />
       <AboutUs />
       <LearnMore />
+      <LeadPastor />
+      <Community />
+      <CatchUp2 />
     </div>
   );
 }
