@@ -1,4 +1,6 @@
-export default function Story() {
+import React from "react";
+
+const Story: React.FC = () => {
   return (
     <section className="flex-1 min-h-screen items-center bg-white px-6 py-35 sm:px-10 lg:px-16 border-t border-gray-300 ">
       <div className="relative aspect-square overflow-hidden rounded-[34px] border-[5px] border-lime-400 transition-transform duration-500 hover:scale-105">
@@ -33,9 +35,11 @@ export default function Story() {
           href="#share-testimony"
           className="mt-10 inline-flex items-center gap-6 rounded-xl bg-lime-400 px-8 py-5 text-sm font-semibold text-black transition-transform duration-500 hover:scale-105 hover:bg-lime-500 md:text-lg"
         >
-          Share Your Testimony <span aria-hidden="true">"›"</span>
+          Share Your Testimony <span>›</span>
         </a>
       </div>
     </section>
   );
-}
+};
+
+export default Story;
